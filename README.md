@@ -48,10 +48,10 @@ Each module will have its own folder with code, notes, and mini-projects.
 ### Example Structure
 
 ```
-/Module-01-Introduction/
+/Section-01-Introduction/
     - notes.md
     - hello_world.py
-/Module-02-Data-Types/
+/Section-02-Data-Types/
     - notes.md
     - data_types_examples.py
 ...
