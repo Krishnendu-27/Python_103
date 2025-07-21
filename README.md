@@ -61,7 +61,7 @@ Each module will have its own folder with code, notes, and mini-projects.
 
 ## 📅 Progress
 
-- [ ] Introduction to Coding World with Python
+- [X] Introduction to Coding World with Python
 - [ ] Data types in Python
 - [ ] Conditionals in Python
 - [ ] Loops in Python | Mini Projects
