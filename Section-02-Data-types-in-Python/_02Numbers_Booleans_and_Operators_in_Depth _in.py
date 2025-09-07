@@ -1,4 +1,3 @@
-# Numbers, Booleans, and Operators in Depth in Python
 
 import sys
 from decimal import Decimal
@@ -19,7 +18,9 @@ mango_pieces = 53
 servings = 2
 
 each_person_get = mango_pieces / servings         # 26.5
+# give us the exact answer by using /
 round_up_quantity = mango_pieces // servings      # 26
+# give us in integer  answer by using //
 remaining_quantity = mango_pieces % servings      # 1
 
 print(f"Each person gets: {each_person_get}")
@@ -37,6 +38,9 @@ base = 2
 exponent = 6
 power_result = base ** exponent    # 2^6
 print(f"{base} to the power of {exponent} is {power_result}")
+# in python we can write number like  ⬇️ it only use for readibility 
+total_num = 1_000_000_000_000_00;
+print(total_num)
 
 # Boolean values
 milk_present = True

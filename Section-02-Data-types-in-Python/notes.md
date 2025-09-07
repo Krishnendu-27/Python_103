@@ -1,16 +1,26 @@
-#  Objects - Mutable and Immutable in Python
+# Objects - Mutable and Immutable in Python
 
 everything is a object
-verey object has 
+verey object has
+
 1. identity
-2. type 
+2. type
 3. value
 
-so in python see the object is *mutable or not* is best way to see this by identity 
-if idenenty same its not mutable 
-if idenenty not change  its  mutable
+so in python see the object is _mutable or not_ is best way to see this by identity
+if idenenty same its not mutable
+if idenenty not change its mutable
+![alt text](image.png)
 
-id() shows you the memory reference of the object currently being used.
+# Numbers, Booleans and Operators in Depth in Python
+
+there in python
+
+- integers
+- boolean
+- Real floating/ decimal
+- complex number 2+j3
+  id() shows you the memory reference of the object currently being used.
 
 If an integer hasn’t been used yet, Python will still create it when needed.
 
@@ -22,7 +32,8 @@ Even if you never explicitly use a number like 152, id(152) works because Python
 
 # Numbers, Booleans and Operators in Depth in Python
 
-in python there are 4 types of number 
+in python there are 4 types of number
+
 1. Integer
 2. Boolean
 3. Real floating-> Decimal

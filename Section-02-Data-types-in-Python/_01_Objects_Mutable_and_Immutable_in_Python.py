@@ -1,4 +1,4 @@
-# Objects - Mutable and Immutable in Python
+# Object must have identity , type , value
 
 sugar_ammount = 2
 print(f"sugar amount in first: {sugar_ammount}")
