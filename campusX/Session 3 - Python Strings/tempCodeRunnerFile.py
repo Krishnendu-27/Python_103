@@ -1,0 +1,1 @@
+print(f"in the previous year 202{i} population is {current_pop}")
