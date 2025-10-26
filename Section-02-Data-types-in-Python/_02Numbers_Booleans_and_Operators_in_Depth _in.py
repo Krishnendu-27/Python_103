@@ -58,3 +58,8 @@ print(sys.float_info)
 # High-precision decimals
 large_decimal = Decimal('1.0000000000000000001') * Decimal('2.5')
 print(f"High-precision result: {large_decimal}")
+
+# logical operation (and , or , not)
+
+# or = any one condition need to be true
+# and = both condition need to be true

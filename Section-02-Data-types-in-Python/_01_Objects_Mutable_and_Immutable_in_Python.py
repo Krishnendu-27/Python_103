@@ -11,6 +11,7 @@ print(f"sugar amount in second: {sugar_ammount}")
 # To confirm, we can compare their ids:
 print(f"id of integer 2: {id(2)}")    # e.g., 10746448
 print(f"id of integer 12: {id(12)}")  # e.g., 10746768
+# number is inmutable in python
 
 # The integer object 2 remains in memory, but the name refers
 # to a different object after reassignment.
@@ -28,3 +29,5 @@ print(f"id of fruties after change: {id(fruties)}")
 # Unlike numbers, a set does not create a new object each time;
 # it modifies the existing object in place, so its id remains the same.
 # Thus, sets are mutable, while numbers are immutable.
+
+# imutable mens we can not change its exsistence from memory like number we creat a number it will stay their but set we can chnage its value 
