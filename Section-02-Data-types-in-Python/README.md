@@ -10,7 +10,7 @@ verey object has
 so in python see the object is _mutable or not_ is best way to see this by identity
 if idenenty same its not mutable
 if idenenty not change its mutable
-![alt text](image.png)
+![alt text](./_00_all_images_of_notes/image.png)
 never check the identy by value
 
 # Object must have identity , type , value
@@ -297,23 +297,48 @@ print(f"Original list remains sorted: {todolist}")
 todolist.clear()
 print(f"After clear: {todolist}") # Should print []
 
-# operator overloading 
-# when operator is used for more than one task it is called operator overloading 
+# operator overloading
+
+# when operator is used for more than one task it is called operator overloading
+
 base_number = [1, 2, 3]
 special_number = [7, 108, 1000]
 
 total_number = base_number + special_number
+
 # using + it concatenates 2 lists
+
 print(f"using '+' in 'operator overloading' {total_number}")
 
-black_coffee = ["2 gm coffee", "water"] * 3
-# using * it multiplies list elements by the given input  
-print(f"now use '*' in 'operator overloading' {black_coffee}")
+black_coffee = ["2 gm coffee", "water"] \* 3
+
+# using \* it multiplies list elements by the given input
+
+print(f"now use '\*' in 'operator overloading' {black_coffee}")
 
 # bytearray(b"single element") by this we can store only byte data; to perform any operation we need to work on bytes
+
 single_name = bytearray(b"KRISH")
 print(f"this is bytearray example {single_name}")
 
 # we can change some characters of bytearray via replace; for that we need to store it in a new variable after the operation
+
 change_name = single_name.replace(b"KRI", b"WFI")
 print(f"after doing replace in bytearray example {change_name}")
+
+# set
+
+its cocnept of math its the place where both group data match
+GROUP A
+GROUP B
+the comon part is known is intersection
+the whole thing is union in set all thing is uniqe
+![set thoery example](./_00_all_images_of_notes/image-1.png)
+
+# dictionary
+so in list we have index value but if we can give name of the index value 
+mens [1,2,3] its 0 based index 
+if we can do ["krish", "ghosh"]
+                firstname point to "krish"it give name documnet
+
+![visual reprationation of dictonary ](./_00_all_images_of_notes/image3.png)
