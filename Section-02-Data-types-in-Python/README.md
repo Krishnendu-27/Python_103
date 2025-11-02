@@ -336,9 +336,10 @@ the whole thing is union in set all thing is uniqe
 ![set thoery example](./_00_all_images_of_notes/image-1.png)
 
 # dictionary
-so in list we have index value but if we can give name of the index value 
-mens [1,2,3] its 0 based index 
+
+so in list we have index value but if we can give name of the index value
+mens [1,2,3] its 0 based index
 if we can do ["krish", "ghosh"]
-                firstname point to "krish"it give name documnet
+firstname point to "krish"it give name documnet
 
 ![visual reprationation of dictonary ](./_00_all_images_of_notes/image3.png)
