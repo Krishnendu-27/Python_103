@@ -27,4 +27,4 @@ for i in range(1,5):
         print(j, end=" ")
     for k in range(i,0,-1):
         print(k,end=" ")
-    print()
+    print() 
